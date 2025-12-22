@@ -1,0 +1,28 @@
+{
+  "name": "militaryexpress",
+  "version": "1.0.0",
+  "description": "\"# militaryExpress\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AriKodcode/militaryExpress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/AriKodcode/militaryExpress/issues"
+  },
+  "homepage": "https://github.com/AriKodcode/militaryExpress#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
