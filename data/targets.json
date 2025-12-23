@@ -1,0 +1,12 @@
+{
+  "targets": [
+    {
+      "id": "t-103",
+      "codeName": "Gaza Falcon",
+      "region": "west",
+      "priority": 6,
+      "status": "new",
+      "createdAt": "3:16:56 PM"
+    }
+  ]
+}

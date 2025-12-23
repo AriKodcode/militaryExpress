@@ -3,9 +3,9 @@ import express from 'express';
 const getBriefing = express();
 getBriefing.get('/', (req, res) => {
   try {
-    if (req.header.Client_Unit) {
+    if (req.headers.client_unit) {
       res.json({
-        unit: req.header.Client_Unit,
+        unit: req.headers.client_unit,
         message: 'briefing delivered',
       });
     } else {
